@@ -1,0 +1,37 @@
+{
+  "name": "node_led",
+  "version": "1.0.0",
+  "description": "first node application",
+  "main": "main.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomvd/nodeled.git"
+  },
+  "keywords": [
+    "testing",
+    "nodejs",
+    "on",
+    "raspberry",
+    "pi",
+    "with",
+    "an",
+    "arduino",
+    "attached",
+    "to",
+    "it"
+  ],
+  "author": "tomvd",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomvd/nodeled/issues"
+  },
+  "homepage": "https://github.com/tomvd/nodeled#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "serialport": "^4.0.7",
+    "socket.io": "^1.7.2"
+  }
+}
